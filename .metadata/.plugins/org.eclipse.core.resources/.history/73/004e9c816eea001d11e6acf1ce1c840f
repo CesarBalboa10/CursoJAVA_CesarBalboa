@@ -1,0 +1,34 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		System.out.println("hola mundo");
+		
+		//Tipos de datos primitivos
+		int numero = 20;
+		System.out.println(numero);
+		
+		double medio = 0.6;
+		System.out.println(medio);
+		
+		boolean verdadero = true;
+		System.out.println(verdadero);
+		
+		//Tipos de datos objetos
+		String nombre = "Cesar";
+		System.out.println(nombre);
+		
+		@SuppressWarnings("removal") //Los @ son anotaciones
+		Integer num = new Integer(2);
+		System.out.println(num);
+		
+		//Conversion de tipos
+		//numero = medio; No compila, asignacion invalida
+		
+		medio = numero; //Conversion implicita
+		
+		String enLetras = Integer.toString(numero);
+		System.out.println(enLetras);
+	}
+
+}

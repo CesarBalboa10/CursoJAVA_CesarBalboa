@@ -1,0 +1,14 @@
+
+public class Program {
+
+	public static void main(String[] args) {
+		System.out.println("hola mundo");
+		
+		int numero = 20;
+		System.out.println(numero);
+		
+		double medio = 0.6;
+		System.out.println(medio);
+	}
+
+}
